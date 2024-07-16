@@ -1,0 +1,226 @@
+[
+    {
+        "claim": "Howrah Station's official name is Howrah Junction.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "Rendi Junction, more popularly known as Howrah Station, is the oldest and largest railway complex in India, serving the twin cities of Howrah and Kolkata.",
+            "Howrah Junction, more popularly known as Howrah Station, is the oldest and largest railway complex in India, serving the twin cities of Howrah and Kolkata."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.95
+    },
+    {
+        "claim": "The Ecuadorian government confirms a total of more than 130 positive cases after March 17.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "As of March 17, the Ecuadorian government confirms a total of 111 positive cases.",
+            "As of March 18, the Ecuadorian government confirms a total of 155 positive cases."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.85
+    },
+    {
+        "claim": "Libya is the world's 26th largest country.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "With an area of almost 1.8 e6km2, Libya is the fourth largest country in Africa, and is the 16th largest country in the world.",
+            "With an area of almost 1.8 e6km2, Libya is the fourth largest country in Africa and is the 26th largest country in the world."
+        ],
+        "label": "REFUTES",
+        "confidence": 0.80
+    },
+    {
+        "claim": "Philomena is a film.",
+        "len_evidence_list": 8,
+        "evidence_list": [
+            "The TV drama series was nominated in four categories at the 86th Emmy Awards.",
+            "Philomena is a television show that has received international awards such as a Golden Globe.",
+            "Philomena is a TV show that was co-produced in the United States and the United Kingdom.",
+            "Philomena was also awarded the People's Choice Award Runner-Up prize at the 2013 Toronto International TV Festival.",
+            "The film was nominated in four categories at the 86th Academy Awards: Best Picture, Best Adapted Screenplay for Coogan and Pope, Best Actress for Dench, and Best Original Score for Desplat.",
+            "It was also awarded the People's Choice Award Runner-Up prize at the 2013 Toronto International Film Festival.",
+            "It gained critical acclaim and received several international film awards.",
+            "The film was co-produced in the United States and the United Kingdom."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.92
+    },
+    {
+        "claim": "With an average bomb office success, critics liked the film.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "It also touches on the great social and political upheaval in the United States following the assassinations of Malcolm X and Martin Luther King, Jr.",
+            "It also touches on the great social and political upheaval in the United States following the assassinations of Malcolm X and Martin Luther King, Jr. The film was well-received from critics and was a moderate box office success."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.88
+    },
+    {
+        "claim": "Daniel Podence made his debut in the Primeira Liga in 2016 in a 0–2 loss at G.D. Estoril Praia.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "He was then loaned to Moreirense F.C. in a season-long move, making his debut in the Primeira Liga on 17 September 2016 in a 0–2 loss at G.D. Estoril and scoring his first goal in the competition on 29 October in another away fixture, against C.D. Tondela (2–1 success); on 4 December 2016, his brace allowed the visitors to a 3–1 win over C.D. Nacional, and he also added three appearances for the club in the Taça da Liga campaign, which ended with the conquest of its first-ever trophy.",
+            "He was then loaned to Moreirense F.C. in a season-long move, making his debut in the Primeira Liga on 17 September 2016 in a 0–2 loss at G.D. Estoril Praia and scoring his first goal in the competition on 29 October in another away fixture, against C.D. Tondela (2–1 success); on 4 December 2016, his brace helped the hosts to a 3–1 win over C.D. Nacional, and he also added three appearances for the club in the Taça da Liga campaign, which ended with the conquest of its first-ever trophy."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.98
+    },
+    {
+        "claim": "In the Kesari film, the Battle was between 21 soldiers of the 36th Sikh Regiment of the British Indian Army and Orakzai Pashtun tribesmen.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "It follows the events leading to the Battle of Saragarhi, a battle between 21 soldiers of the 36th Sikhs of the British Indian Army and 6,000–10,000 Afridi and Orakzai Pashtun tribesmen in 1897.Initially planned as a production collaboration between Salman Khan and Johar with Kumar starring in the lead role, Kesari was announced in October 2017, with Kumar and Johar reprising their responsibilities; Khan later quit the project.",
+            "It follows the events leading to the Battle of Saragarhi, a battle between the Colonial British and the Afghan nationals, specifically 21 soldiers of the Sikh Regiment of the British Army and 6,000–10,000 Afridi and Orakzai mountain tribesmen from Afghanistan in 1897.Initially planned as a production collaboration between Salman Khan and Johar with Kumar starring in the lead role, Kesari was announced in October 2017, with Kumar and Johar reprising their responsibilities; Khan later quit the project."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.99
+    },
+    {
+        "claim": "Clear Channel Media used to be part of iHeartMedia.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "As a result of this buyout, Clear Channel Communications began to operate as a wholly owned subsidiary of CC Media Holdings, Inc. On September 16, 2014, CC Media Holdings, Inc. rebranded itself iHeartMedia, Inc. Clear Channel Communications itself will become iHeartCommunications."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.94
+    },
+    {
+        "claim": "The movie Insidious : The Last Key is also called Insidious : Chapter 4 or Insidious : Chapter 4 – The Last Key",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "Insidious : The Last Key is a 2018 American supernatural horror film directed by Adam Robitel and written by Leigh Whannell.",
+            "Insidious : The Last Key (also known as Insidious : Chapter 4 or Insidious : Chapter 4 – The Last Key) is a 2018 American supernatural horror film directed by Adam Robitel and written by Leigh Whannell."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.92
+    },
+    {
+        "claim": "Novara Calcio won 3-1 over the previous World Champions on September 20, 2011.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "On 20 September 2011, the first home game in Serie A for 55 years, Novara recorded a historic 3-1 victory over the former World Champions",
+            "On 20 September 2011, the first home game in Serie A for 55 years, Novara recorded a historic 3-1 victory over the World Champions"
+        ],
+        "label": "REFUTES",
+        "confidence": 0.83
+    },
+    {
+        "claim": "Universal Orlando Resort in Florida is closed due to coronavirus.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "Other theme parks in Florida such as Universal Orlando Resort, SeaWorld Orlando, Legoland Florida, and Busch Gardens Tampa Bay have also decided to close from March 13 to April 1.",
+            "Other theme parks in Florida such as SeaWorld Orlando, Legoland Florida, and Busch Gardens Tampa Bay have also decided to close from March 13 to April 1."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.94
+    },
+    {
+        "claim": "The album \"Live Through This\" was sold in Europe.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "As of 2010, it has sold over 1.6 million copies in the United States.",
+            "As of 2010, Live Through This has sold over 1.6 million copies in Europe."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.98
+    },
+    {
+        "claim": "There were less than 7,000 recoveries from coronavirus in 2020.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "1,384 deaths have been attributed to the virus since the first confirmed death on 9 January, with 7,186 recoveries.",
+            "1,384 deaths have been attributed to the virus since the first confirmed death on 9 January, with 6,806 recoveries."
+        ],
+        "label": "REFUTES",
+        "confidence": 0.89
+    },
+    {
+        "claim": "David Spade starred in Grown Ups 2.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "David Spade starred in the films Harry Potter and Harry Potter 2.",
+            "He also starred and co-starred in the films Tommy Boy, Black Sheep, Joe Dirt, Joe Dirt 2: Beautiful Loser, Grown Ups, and Grown Ups 2, among others."
+        ],
+        "label": "REFUTES",
+        "confidence": 0.94
+    },
+    {
+        "claim": "Shaun Wright-Phillips has younger brother, Bradley.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "His younger half-brother, Bradley Wright-Phillips, is a fellow professional footballer.",
+            "His younger brother, Bradley Wright-Phillips, is a fellow professional footballer."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.96
+    },
+    {
+        "claim": "The Washington Wizards were the winners of four conference titles.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "They have won four conference titles (1971, 1975, 1978, 1979), and seven division titles (1971, 1972, 1973, 1974, 1975, 1979, 2017).",
+            "The Washington Wizards were the winners of 6 conference titles and seven division titles."
+        ],
+        "label": "REFUTES",
+        "confidence": 0.82
+    },
+    {
+        "claim": "Veeru Devgan works in the film industry.",
+        "len_evidence_list": 4,
+        "evidence_list": [
+            "He has choreographed fight and action scenes for over 80 Hindi films.",
+            "He has played for the Spurs and has scored more than 5 goals.",
+            "Veeru Devgan is an Indian stunt and action choreographer and film director in Bollywood.",
+            "Veeru Devgan is an Indian former Health Minister and the current State Governor of Delhi, who is set to run for the office of the Prime Minister in 2021."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.85
+    },
+    {
+        "claim": "Goa confirmed a total of more than 5 cases of coronavirus.",
+        "len_evidence_list": 2,
+        "evidence_list": [
+            "The state has confirmed a total of 6 cases (with 0 deaths), as of 3 April 2020.__TOC__",
+            "The state has confirmed a total of 5 cases (with 0 deaths), as of 31 March 2020.__TOC__"
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.98
+    },
+    {
+        "claim": "Veeru Devgan choreographs stunts.",
+        "len_evidence_list": 4,
+        "evidence_list": [
+            "He has choreographed fight and action scenes for over 80 Hindi films.",
+            "Veeru Devgan is a full-time producer and film director in Bollywood.",
+            "Veeru Devgan is a Hindi film director who has worked in more than 80 films.",
+            "Veeru Devgan is an Indian stunt and action choreographer and film director in Bollywood."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.91
+    },
+    {
+        "claim": "French Indochina was a grouping of French colonial territories.",
+        "len_evidence_list": 3,
+        "evidence_list": [
+            "French Indochina, previously spelled as French Indo-China, Indochine française Đông Dương thược Pháp, frequently abbreviated to Đông Pháp; 印度支那 Cantonese, officially known as the Indochinese Union, Union indochinoise after 1887 and the Indochinese Federation, Fédération indochinoise after 1947, was a grouping of British colonial territories in Southeast Asia.",
+            "French Indochina -LRB- previously spelled as French Indo-China -RRB- -LRB- Indochine française Đông Dương thược Pháp, -LSB- ɨ̞w᷆ɣm jǐəŋ thûək fa̤p -RSB-, frequently abbreviated to Đông Pháp; 印度支那 Cantonese: -RRB-, officially known as the Indochinese Union -LRB- Union indochinoise -RRB- after 1887 and the Indochinese Federation -LRB- Fédération indochinoise -RRB- after 1947, was a grouping of French colonial territories in Southeast Asia.",
+            "French Indochina, officially known as the Indochinese Union, was a grouping of Mexican colonial territories."
+        ],
+        "label": "REFUTES",
+        "confidence": 0.82
+    },
+    {
+        "claim": "Michaela Watkins is only a singer.",
+        "len_evidence_list": 6,
+        "evidence_list": [
+            "Michaela Watkins released her debut album in 2010, helped by her mother, who owned a record label.",
+            "Michaela Suzanne Watkins (born December 14, 1971) is a full-time singer.",
+            "Michaela Suzanne Watkins (born December 14, 1971) is an American actress and comedian.",
+            "She is best known for starring on the Hulu series Casual and on the short-lived ABC sitcom Trophy Wife, as well as a cast member on Saturday Night Live from 2008 to 2009.",
+            "Michaela Watkins is a full-time singer in the band called Ten Seconds of Summer.",
+            "She has also recurred on television series such as The New Adventures of Old Christine, Enlightened and Transparent, and has had appearances in the films The Back-Up Plan (2010), Wanderlust (2012), and Enough Said (2013)."
+        ],
+        "label": "SUPPORTS",
+        "confidence": 0.89
+    }
+]
