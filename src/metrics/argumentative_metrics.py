@@ -106,3 +106,64 @@ def _dfs_cycle(arg_framework, start, visited, stack):
 
     stack[start] = False
     return False
+
+
+def get_arguments_for_conclusion(args, conclusion):
+    return [arg for arg in args if arg['conclusion'] == conclusion]
+
+
+def get_attackers(args, attack_relations, arg_id):
+    return [attacker for attacker in args if (attacker['id'], arg_id) in attack_relations]
+
+
+def get_dialectical_strength(argument):
+    # Assuming dialectical strength is represented by the strength attribute
+    return argument['strength']
+
+
+def compute_dialectical_faithfulness(args, attack_relations, support_relations, args_y_hat, top_confidence,
+                                     high_confidence, model_predicted_label, model_confidence):
+    """
+        Compute the dialectical faithfulness of an argumentative explanation.
+
+        Parameters:
+        args (list of dict): List of all arguments where each argument is represented as a dictionary
+                             with keys 'id' (int), 'conclusion' (str), and 'strength' (float).
+        attack_relations (list of tuple): List of tuples representing attack relationships (arg_id1, arg_id2).
+        support_relations (list of tuple): List of tuples representing support relationships (arg_id1, arg_id2).
+        args_y_hat (list of dict): List of arguments supporting the predicted label y_hat, with the same structure as `args`.
+        top_confidence (float): Confidence threshold for top confidence.
+        high_confidence (float): Confidence threshold for high confidence.
+        model_predicted_label (str): The label predicted by the model.
+        model_confidence (float): The confidence of the model in its prediction.
+
+        Returns:
+        score: True if the argumentative explanation is dialectically faithful, False otherwise.
+    """
+    predicted_label = model_predicted_label
+    confidence = model_confidence
+
+    arguments_for_predicted = [arg for arg in args_y_hat if arg['conclusion'] == predicted_label]
+
+    if confidence >= top_confidence:
+        # Check for no attackers with higher or equal strength
+        for arg in arguments_for_predicted:
+            for attacker in get_attackers(args, attack_relations, arg['id']):
+                if get_dialectical_strength(attacker) >= get_dialectical_strength(arg):
+                    return False
+        return True
+    elif confidence >= high_confidence:
+        # Check if dialectical strength of arguments for the label is higher than the attackers
+        for arg in arguments_for_predicted:
+            for attacker in get_attackers(args, attack_relations, arg['id']):
+                if get_dialectical_strength(attacker) > get_dialectical_strength(arg):
+                    return False
+        return True
+    else:
+        # Check if arguments for the label are weak or if there are stronger attackers
+        for arg in arguments_for_predicted:
+            if get_dialectical_strength(arg) > 0.5:  # Assuming 0.5 is the threshold for weak strength
+                for attacker in get_attackers(args, attack_relations, arg['id']):
+                    if get_dialectical_strength(attacker) <= get_dialectical_strength(arg):
+                        return False
+        return True
