@@ -1,0 +1,116 @@
+{
+    "args": [
+        {"id": 1, "conclusion": "y1", "strength": 0.8},
+        {"id": 2, "conclusion": "y2", "strength": 0.6},
+        {"id": 3, "conclusion": "y1", "strength": 0.4},
+        {"id": 4, "conclusion": "y2", "strength": 0.5},
+        {"id": 5, "conclusion": "y1", "strength": 0.9}
+    ],
+    "attack_relations": [
+        [2, 1],
+        [3, 2],
+        [4, 5],
+        [5, 3]
+    ],
+    "support_relations": [
+        [1, 5],
+        [3, 5]
+    ],
+    "args_y_hat": [
+        {"id": 1, "conclusion": "y1", "strength": 0.8},
+        {"id": 3, "conclusion": "y1", "strength": 0.4},
+        {"id": 5, "conclusion": "y1", "strength": 0.9}
+    ],
+    "top_confidence": 0.9,
+    "high_confidence": 0.7,
+    "model_predicted_label": "y1",
+    "model_confidence": 0.95
+}
+{
+    "args": [
+        {"id": 6, "conclusion": "y3", "strength": 0.7},
+        {"id": 7, "conclusion": "y3", "strength": 0.6},
+        {"id": 8, "conclusion": "y4", "strength": 0.5},
+        {"id": 9, "conclusion": "y4", "strength": 0.4}
+    ],
+    "attack_relations": [
+        [8, 6],
+        [9, 7]
+    ],
+    "support_relations": [
+        [6, 7]
+    ],
+    "args_y_hat": [
+        {"id": 6, "conclusion": "y3", "strength": 0.7},
+        {"id": 7, "conclusion": "y3", "strength": 0.6}
+    ],
+    "top_confidence": 0.85,
+    "high_confidence": 0.65,
+    "model_predicted_label": "y3",
+    "model_confidence": 0.80
+}
+{
+    "args": [
+        {"id": 10, "conclusion": "y5", "strength": 0.9},
+        {"id": 11, "conclusion": "y5", "strength": 0.7},
+        {"id": 12, "conclusion": "y6", "strength": 0.6}
+    ],
+    "attack_relations": [
+        [12, 10],
+        [12, 11]
+    ],
+    "support_relations": [],
+    "args_y_hat": [
+        {"id": 10, "conclusion": "y5", "strength": 0.9},
+        {"id": 11, "conclusion": "y5", "strength": 0.7}
+    ],
+    "top_confidence": 0.95,
+    "high_confidence": 0.75,
+    "model_predicted_label": "y5",
+    "model_confidence": 0.92
+}
+{
+    "args": [
+        {"id": 13, "conclusion": "y7", "strength": 0.5},
+        {"id": 14, "conclusion": "y7", "strength": 0.4},
+        {"id": 15, "conclusion": "y8", "strength": 0.3},
+        {"id": 16, "conclusion": "y8", "strength": 0.6}
+    ],
+    "attack_relations": [
+        [15, 13],
+        [16, 14]
+    ],
+    "support_relations": [
+        [13, 14]
+    ],
+    "args_y_hat": [
+        {"id": 13, "conclusion": "y7", "strength": 0.5},
+        {"id": 14, "conclusion": "y7", "strength": 0.4}
+    ],
+    "top_confidence": 0.8,
+    "high_confidence": 0.6,
+    "model_predicted_label": "y7",
+    "model_confidence": 0.65
+}
+{
+    "args": [
+        {"id": 17, "conclusion": "y9", "strength": 0.9},
+        {"id": 18, "conclusion": "y10", "strength": 0.7},
+        {"id": 19, "conclusion": "y10", "strength": 0.8},
+        {"id": 20, "conclusion": "y9", "strength": 0.6}
+    ],
+    "attack_relations": [
+        [18, 17],
+        [19, 17],
+        [20, 19]
+    ],
+    "support_relations": [],
+    "args_y_hat": [
+        {"id": 17, "conclusion": "y9", "strength": 0.9},
+        {"id": 20, "conclusion": "y9", "strength": 0.6}
+    ],
+    "top_confidence": 0.93,
+    "high_confidence": 0.73,
+    "model_predicted_label": "y9",
+    "model_confidence": 0.85
+}
