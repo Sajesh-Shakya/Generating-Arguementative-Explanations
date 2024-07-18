@@ -1,0 +1,434 @@
+[
+    {
+        "claim": "Howrah Station's official name is Howrah Junction.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "Howrah Junction, more popularly known as Howrah Station, is the oldest and largest railway complex in India, serving the twin cities of Howrah and Kolkata.",
+                    "conclusion": "Howrah Station's official name is Howrah Junction.",
+                    "strength": 0.8
+                },
+                {
+                    "premise": "Rendi Junction, more popularly known as Howrah Station, is the oldest and largest railway complex in India, serving the twin cities of Howrah and Kolkata.",
+                    "conclusion": "Howrah Station's official name is Howrah Junction.",
+                    "strength": 0.2
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+        "claim": "The Ecuadorian government confirms a total of more than 130 positive cases after March 17.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "As of March 18, the Ecuadorian government confirms a total of 155 positive cases.",
+                    "conclusion": "The Ecuadorian government confirms a total of more than 130 positive cases after March 17.",
+                    "strength": 0.8
+                },
+                {
+                    "premise": "As of March 17, the Ecuadorian government confirms a total of 111 positive cases.",
+                    "conclusion": "The Ecuadorian government confirms a total of more than 130 positive cases after March 17.",
+                    "strength": 0.2
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+        "claim": "Libya is the world's 26th largest country.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "With an area of almost 1.8 e6km2, Libya is the fourth largest country in Africa and is the 26th largest country in the world.",
+                    "conclusion": "Libya is the world's 26th largest country.",
+                    "strength": 0.8
+                },
+                {
+                    "premise": "With an area of almost 1.8 e6km2, Libya is the fourth largest country in Africa, and is the 16th largest country in the world.",
+                    "conclusion": "Libya is the world's 26th largest country.",
+                    "strength": 0.2
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+        "claim": "Philomena is a film nominated for eight awards.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "Philomena was also nominated for five BAFTA Awards and three Golden Globe Awards.",
+                    "conclusion": "Philomena is a film nominated for eight awards.",
+                    "strength": 0.8
+                },
+                {
+                    "premise": "It was also nominated for four BAFTA Awards and three Golden Globe Awards.",
+                    "conclusion": "Philomena is a film nominated for eight awards.",
+                    "strength": 0.2
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+        "claim": "With an average bomb office success, critics liked the film.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "It also touches on the great social and political upheaval in the United States following the assassinations of Malcolm X and Martin Luther King, Jr. The film was well-received from critics and was a moderate box office success.",
+                    "conclusion": "With an average box office success, critics liked the film.",
+                    "strength": 0.8
+                },
+                {
+                    "premise": "It also touches on the great social and political upheaval in the United States following the assassinations of Malcolm X and Martin Luther King, Jr.",
+                    "conclusion": "With an average box office success, critics liked the film.",
+                    "strength": 0.2
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+        "claim": "Daniel Podence made his debut in the Primeira Liga in 2016 in a 0–2 loss at G.D. Estoril Praia.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "He was then loaned to Moreirense F.C. in a season-long move, making his debut in the Primeira Liga on 17 September 2016 in a 0–2 loss at G.D. Estoril Praia and scoring his first goal in the competition on 29 October in another away fixture, against C.D. Tondela (2–1 success); on 4 December 2016, his brace helped the hosts to a 3–1 win over C.D. Nacional, and he also added three appearances for the club in the Taça da Liga campaign, which ended with the conquest of its first-ever trophy.",
+                    "conclusion": "Daniel Podence made his debut in the Primeira Liga in 2016 in a 0–2 loss at G.D. Estoril Praia.",
+                    "strength": 0.2
+                },
+                {
+                    "premise": "He was then loaned to Moreirense F.C. in a season-long move, making his debut in the Primeira Liga on 17 September 2016 in a 0–2 loss at G.D. Estoril and scoring his first goal in the competition on 29 October in another away fixture, against C.D. Tondela (2–1 success); on 4 December 2016, his brace allowed the visitors to a 3–1 win over C.D. Nacional, and he also added three appearances for the club in the Taça da Liga campaign, which ended with the conquest of its first-ever trophy.",
+                    "conclusion": "Daniel Podence made his debut in the Primeira Liga in 2016 in a 0–2 loss at G.D. Estoril Praia.",
+                    "strength": 0.8
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+        "claim": "In the Kesari film, the Battle was between 21 soldiers of the 36th Sikh Regiment of the British Indian Army and Orakzai Pashtun tribesmen.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "It follows the events leading to the Battle of Saragarhi, a battle between the Colonial British and the Afghan nationals, specifically 21 soldiers of the Sikh Regiment of the British Army and 6,000–10,000 Afridi and Orakzai mountain tribesmen from Afghanistan in 1897. Initially planned as a production collaboration between Salman Khan and Johar with Kumar starring in the lead role, Kesari was announced in October 2017, with Kumar and Johar reprising their responsibilities; Khan later quit the project.",
+                    "conclusion": "In the Kesari film, the Battle was between 21 soldiers of the 36th Sikh Regiment of the British Indian Army and Orakzai Pashtun tribesmen.",
+                    "strength": 0.2
+                },
+                {
+                    "premise": "It follows the events leading to the Battle of Saragarhi, a battle between 21 soldiers of the 36th Sikhs of the British Indian Army and 6,000–10,000 Afridi and Orakzai Pashtun tribesmen in 1897. Initially planned as a production collaboration between Salman Khan and Johar with Kumar starring in the lead role, Kesari was announced in October 2017, with Kumar and Johar reprising their responsibilities; Khan later quit the project.",
+                    "conclusion": "In the Kesari film, the Battle was between 21 soldiers of the 36th Sikh Regiment of the British Indian Army and Orakzai Pashtun tribesmen.",
+                    "strength": 0.8
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+        "claim": "Clear Channel Media used to be part of iHeartMedia.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "As a result of this buyout, Clear Channel Communications began to operate as a wholly owned subsidiary of CC Media Holdings, Inc. On September 16, 2014, CC Media Holdings, Inc. rebranded itself iHeartMedia, Inc. Clear Channel Communications itself will become iHeartCommunications. iHeartMedia, Inc. specializes in radio broadcasting through division iHeartMedia (formerly Clear Channel Media and Entertainment and Clear Channel Radio) and subsidiary Clear Channel Broadcasting, Inc.; the company also specializes in outdoor advertising through subsidiary Clear Channel Outdoor Holdings, Inc. Clear Channel currently owns 850 full-power AM and FM radio stations in the U.S., making it the nation's largest owner of such properties.",
+                    "conclusion": "Clear Channel Media used to be part of iHeartMedia.",
+                    "strength": 0.8
+                }
+            ],
+            "attacks": [],
+            "supports": []
+        }
+    },
+    {
+        "claim": "With more than 103 reviewers on Rotten Tomatoes, the movie Insidious: The Last Key scored a more than 32% rating.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "On review aggregator Rotten Tomatoes, the film holds an approval rating of 33%, based on 104 reviews, with an average rating of 5.12/10.",
+                    "conclusion": "With more than 103 reviewers on Rotten Tomatoes, the movie Insidious: The Last Key scored a more than 32% rating.",
+                    "strength": 0.8
+                },
+                {
+                    "premise": "On review aggregator Rotten Tomatoes, the film holds an approval rating of 32%, based on 102 reviews, with an average rating of 5.12/10.",
+                    "conclusion": "With more than 103 reviewers on Rotten Tomatoes, the movie Insidious: The Last Key scored a more than 32% rating.",
+                    "strength": 0.2
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+    "claim": "Universal Orlando Resort in Florida is closed due to coronavirus.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "Other theme parks in Florida such as Universal Orlando Resort, SeaWorld Orlando, Legoland Florida, and Busch Gardens Tampa Bay have also decided to close from March 13 to April 1.",
+                "conclusion": "Universal Orlando Resort in Florida is closed due to coronavirus.",
+                "strength": 0.8
+            },
+            {
+                "premise": "Other theme parks in Florida such as SeaWorld Orlando, Legoland Florida, and Busch Gardens Tampa Bay have also decided to close from March 13 to April 1.",
+                "conclusion": "Universal Orlando Resort in Florida is closed due to coronavirus.",
+                "strength": 0.2
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+},
+{
+    "claim": "The album 'Live Through This' was sold in Europe.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "As of 2010, Live Through This has sold over 1.6 million copies in Europe.",
+                "conclusion": "The album 'Live Through This' was sold in Europe.",
+                "strength": 0.8
+            },
+            {
+                "premise": "As of 2010, it has sold over 1.6 million copies in the United States.",
+                "conclusion": "The album 'Live Through This' was sold in Europe.",
+                "strength": 0.2
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+},
+{
+    "claim": "There were less than 700,000 registered Italian residents in Argentina in 2016.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "The highest number is in Argentina, with 673,238 registered Italians residing in the country in 2016, followed by Germany with 581,433, Switzerland 482,539, France 329,202, Brazil 325,555, the UK 232,932, Belgium 225,801, the USA 218,407, Australia 120,791 and Spain 118,879.",
+                "conclusion": "There were less than 700,000 registered Italian residents in Argentina in 2016.",
+                "strength": 0.8
+            },
+            {
+                "premise": "The highest number was from Argentina, with 673,238 registered Italians residing in the country, followed by Germany with 581,433, Switzerland with 482,539, France with 329,202, Brazil with 325,555, the UK with 232,932, Belgium with 225,801, the USA with 218,407, Australia with 120,791 and Spain with 118,879 Italians.",
+                "conclusion": "There were less than 700,000 registered Italian residents in Argentina in 2016.",
+                "strength": 0.2
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+},
+{
+    "claim": "David Spade starred in Harry Potter 2.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "David Spade starred in the films Harry Potter and Harry Potter 2.",
+                "conclusion": "David Spade starred in Harry Potter 2.",
+                "strength": 0.2
+            },
+            {
+                "premise": "He also starred and co-starred in the films Tommy Boy, Black Sheep, Joe Dirt, Joe Dirt 2: Beautiful Loser, Grown Ups, and Grown Ups 2, among others.",
+                "conclusion": "David Spade starred in Harry Potter 2.",
+                "strength": 0.8
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+},
+{
+    "claim": "Shaun Wright-Phillips has younger half-brother, Bradley.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "His younger half-brother, Bradley Wright-Phillips, is a fellow professional footballer.",
+                "conclusion": "Shaun Wright-Phillips has younger half-brother, Bradley.",
+                "strength": 0.8
+            },
+            {
+                "premise": "His younger brother, Bradley Wright-Phillips, is a fellow professional footballer.",
+                "conclusion": "Shaun Wright-Phillips has younger half-brother, Bradley.",
+                "strength": 0.2
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+},
+{
+    "claim": "The Washington Wizards won a division title in 2016.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "Washington Wizards have won four conference titles (1971, 1975, 1978, 1979) and seven division titles (1971, 1972, 1973, 1974, 1975, 1979, 2016).",
+                "conclusion": "The Washington Wizards won a division title in 2016.",
+                "strength": 0.8
+            },
+            {
+                "premise": "They have won four conference titles (1971, 1975, 1978, 1979), and seven division titles (1971, 1972, 1973, 1974, 1975, 1979, 2017).",
+                "conclusion": "The Washington Wizards won a division title in 2016.",
+                "strength": 0.2
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+},
+{
+    "claim": "Veeru Devgan is a politician.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "Veeru Devgan is an Indian former Health Minister and the current State Governor of Delhi, who is set to run for the office of the Prime Minister in 2021.",
+                "conclusion": "Veeru Devgan is a politician.",
+                "strength": 0.2
+            },
+            {
+                "premise": "Veeru Devgan is an Indian stunt and action choreographer and film director in Bollywood.",
+                "conclusion": "Veeru Devgan is a politician.",
+                "strength": 0.8
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+},
+{
+    "claim": "Goa confirmed a total of more than 5 cases of coronavirus.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "The state has confirmed a total of 6 cases (with 0 deaths), as of 3 April 2020.",
+                "conclusion": "Goa confirmed a total of more than 5 cases of coronavirus.",
+                "strength": 0.8
+            },
+            {
+                "premise": "The state has confirmed a total of 5 cases (with 0 deaths), as of 31 March 2020.__TOC__",
+                "conclusion": "Goa confirmed a total of more than 5 cases of coronavirus.",
+                "strength": 0.2
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+    },
+    {
+        "claim": "Veeru Devgan directs films.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "Veeru Devgan is a Hindi film director who has worked in more than 80 films.",
+                    "conclusion": "Veeru Devgan directs films.",
+                    "strength": 0.8
+                },
+                {
+                    "premise": "He has choreographed fight and action scenes for over 80 Hindi films.",
+                    "conclusion": "Veeru Devgan directs films.",
+                    "strength": 0.2
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    },
+    {
+    "claim": "French Indochina was a grouping of French colonial territories in Southeast Asia.",
+    "argumentative_explanation": {
+        "args": [
+            {
+                "premise": "French Indochina (previously spelled as French Indo-China) (Indochine française, frequently abbreviated to Đồng Pháp, officially known as the Indochinese Union (Union indochinoise) after 1887 and the Indochinese Federation (Fédération indochinoise) after 1947, was a grouping of French colonial territories in Southeast Asia.",
+                "conclusion": "French Indochina was a grouping of French colonial territories in Southeast Asia.",
+                "strength": 0.8
+            },
+            {
+                "premise": "French Indochina, previously known as Indochinese Union, was a grouping of French colonial dogs in Southeast Asia.",
+                "conclusion": "French Indochina was a grouping of French colonial territories in Southeast Asia.",
+                "strength": 0.2
+            }
+        ],
+        "attacks": [
+            [0, 1],
+            [1, 0]
+        ],
+        "supports": []
+    }
+    },
+    {
+        "claim": "Michaela Watkins is an actress.",
+        "argumentative_explanation": {
+            "args": [
+                {
+                    "premise": "She is best known for starring on the Hulu series Casual and on the short-lived ABC sitcom Trophy Wife, as well as a cast member on Saturday Night Live from 2008 to 2009.",
+                    "conclusion": "Michaela Watkins is an actress.",
+                    "strength": 0.8
+                },
+                {
+                    "premise": "Michaela Watkins released her debut album in 2010, helped by her mother, who owned a record label.",
+                    "conclusion": "Michaela Watkins is an actress.",
+                    "strength": 0.2
+                }
+            ],
+            "attacks": [
+                [0, 1],
+                [1, 0]
+            ],
+            "supports": []
+        }
+    }
+]
